@@ -4,6 +4,7 @@ export const NavbarContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  padding: 41px 0;
 
   @media (max-width: 1024px) {
     justify-content: space-around;

@@ -47,14 +47,14 @@ export function Navbar() {
               style={{ margin: "0 4px", width: "7px", height: "7px" }}
             />
           </NavLink>
-          <ChildLink href="#">About</ChildLink>
-          <ChildLink href="#">Service</ChildLink>
-          <ChildLink href="#">Gallery</ChildLink>
-          <RootLink href="#">Blog</RootLink>
+          <ChildLink href="/about-us">About</ChildLink>
+          <ChildLink href="/service">Service</ChildLink>
+          <ChildLink href="/gallery">Gallery</ChildLink>
+          <RootLink href="/blog">Blog</RootLink>
         </NavBoxLink>
 
         <NavBox>
-          <Button type="button" className="btn">
+          <Button type="button" className="btn" onClick={"/contact"}>
             Contact
           </Button>
         </NavBox>

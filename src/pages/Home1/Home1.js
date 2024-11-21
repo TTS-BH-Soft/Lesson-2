@@ -6,7 +6,6 @@ export const MainContainer = styled.div`
 
   height: 805px;
 
-  padding: 41px 0;
   margin-bottom: 30px;
 
   @media (max-width: 1024px) {
