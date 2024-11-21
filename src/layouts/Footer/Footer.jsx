@@ -1,8 +1,8 @@
 import FooterLinkItem from "../FooterLinkItem/FooterLinkItem";
 import FooterLinkSection from "../FooterLinkSection/FooterLinkSection";
 
-import socialLinksData from "../../data/socialLinkData";
-import SocialLink from "../SocialLink/SocialLink";
+import socialLinksData from "../../data/socialLinkData.js";
+import SocialLink from "../SocialLink/SocialLink.jsx";
 
 import ArrowBtn from "../../assets/arrow-up.svg";
 
