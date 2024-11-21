@@ -28,38 +28,33 @@ export const Section = styled.section`
 export const Content = styled.div`
   position: relative;
   z-index: 2;
+  margin-top: 5rem;
 `;
 
 export const Title = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin: 1.3rem 0;
   color: #ffffff;
 `;
 
 export const Subtitle = styled.p`
-  font-size: 1.2rem;
+  max-width: 555px;
   margin-bottom: 2rem;
   color: #cacaca;
 `;
 
 export const PlayButton = styled.div`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background 0.3s;
+  // display: inline-flex;
+  // justify-content: center;
+  // align-items: center;
+  // width: 80px;
+  // height: 80px;
+  // background: rgba(255, 255, 255, 0.2);
+  // // border: 2px solid #fff;
+  // // border-radius: 50%;
+  // cursor: pointer;
+  // transition: background 0.3s;
 
-  &:hover {
-    background: rgba(255, 255, 255, 0.5);
-  }
-
-  svg {
-    font-size: 2rem;
-    color: #fff;
-  }
+  // &:hover {
+  //   background: rgba(255, 255, 255, 0.5);
+  // }
 `;

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import NavImage from "../../assets/logo/main-logo.png";
 import PlusIcon from "../../assets/plus-icon.svg";
+
+import { Link } from "react-router-dom";
 import {
   NavbarContainer,
   Logo,
@@ -39,7 +41,7 @@ export function Navbar() {
 
       <Nav className={isMenuOpen ? "active" : ""}>
         <NavBoxLink>
-          <NavLink href="#" className="active">
+          <NavLink href="/" className="active">
             Home
             <img
               src={PlusIcon}
@@ -54,9 +56,11 @@ export function Navbar() {
         </NavBoxLink>
 
         <NavBox>
-          <Button type="button" className="btn" onClick={"/contact"}>
-            Contact
-          </Button>
+          <Link to="/contact-us">
+            <Button type="button" className="btn">
+              Contact
+            </Button>
+          </Link>
         </NavBox>
       </Nav>
 
