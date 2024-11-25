@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection/HeroSection";
 import Teams from "../../component/Teams/Teams";
 import SloganSection from "./SloganSection/SloganSection";
 import ClientSection from "./ClientSection/ClientSection";
+import MissionSection from "./MissionSection/MissionSection";
 
 export default function About() {
   return (
@@ -12,6 +13,7 @@ export default function About() {
       <HeroSection />
       <Teams />
       <SloganSection />
+      <MissionSection />
       <ClientSection />
       <Footer />
     </>
