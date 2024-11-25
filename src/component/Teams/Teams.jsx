@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   TeamSection,
   SectionTitle,
@@ -13,7 +13,7 @@ import {
 import teamMembers from "../../data/teamMembers";
 import SocialIcon from "../SocialIcon/SocialIcon";
 
-export function Teams() {
+export default function Teams() {
   const [teamState, setTeamState] = useState(teamMembers);
 
   const handleHover = (hoveredIndex) => {

@@ -81,11 +81,10 @@ h5 {
 }
 
 #footer {
-  background: url("./assets/background/bg-footer.svg"),
-    url("./assets/background/bg-bottom-footer.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: top left, bottom left;
-  background-size: cover, contain;
+  background: url("./assets/background/bg-footer.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
 
   color: #d7dbff;
   padding: 49px 20px;
