@@ -18,6 +18,8 @@ export const Title = styled.h5`
 export const HeaderBox = styled.div`
   display: flex;
   justify-content: space-between;
+
+  margin-right: 1rem;
 `;
 
 export const Heading = styled.h2`
@@ -34,9 +36,11 @@ export const Subtitle = styled.p`
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 2rem;
+  margin-right: 1rem;
   letter-spacing: 3px;
 
   max-width: 407px;
+  height: 72px;
 `;
 
 export const ImageGrid = styled.div`

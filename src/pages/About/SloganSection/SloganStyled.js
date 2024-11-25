@@ -8,5 +8,23 @@ export const SloganContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  margin: 5rem 0;
+`;
+
+export const ContentBox = styled.div`
+  max-width: 732px;
+  text-align: center;
+`;
+
+export const Title = styled.h5`
+  color: #abb4ff;
+`;
+
+export const Heading = styled.h2`
+  color: #ffffff;
+`;
+
+export const Description = styled.p`
+  color: #cacaca;
+  max-width: 680px;
 `;

@@ -6,6 +6,7 @@ import {
   Content,
   Heading,
   Paragraph,
+  Card,
 } from "./ContactInfoStyled";
 
 export default function ContactInfo() {
@@ -19,16 +20,18 @@ export default function ContactInfo() {
         </Paragraph>
       </Content>
 
-      {contactData.map((item) => (
-        <ContactCard
-          key={item.id}
-          image={item.image}
-          title={item.title}
-          content={item.content}
-          subText={item.subText}
-          hasShadow={item.hasShadow}
-        />
-      ))}
+      <Card>
+        {contactData.map((item) => (
+          <ContactCard
+            key={item.id}
+            image={item.image}
+            title={item.title}
+            content={item.content}
+            subText={item.subText}
+            hasShadow={item.hasShadow}
+          />
+        ))}
+      </Card>
     </ContactContainer>
   );
 }

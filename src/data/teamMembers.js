@@ -1,6 +1,6 @@
-import Team1 from "../assets/team/team-1.svg";
-import Team2 from "../assets/team/team-2.svg";
-import Team3 from "../assets/team/team-3.svg";
+import Team1 from "../assets/common/team-1.svg";
+import Team2 from "../assets/common/team-2.svg";
+import Team3 from "../assets/common/team-3.svg";
 
 const teamMembers = [
   {

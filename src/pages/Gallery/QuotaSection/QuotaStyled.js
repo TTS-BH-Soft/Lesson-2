@@ -5,7 +5,7 @@ export const Section = styled.section`
   height: 389.63px;
   max-width: 1289.56px;
   background: url(${GalleryBg}) no-repeat;
-  background-position: left;
+  background-position: right;
   margin: 0 auto;
 
   display: flex;

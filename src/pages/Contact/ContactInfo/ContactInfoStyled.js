@@ -26,3 +26,5 @@ export const Heading = styled.h2`
 export const Paragraph = styled.p`
   width: 407px;
 `;
+
+export const Card = styled.div``;
