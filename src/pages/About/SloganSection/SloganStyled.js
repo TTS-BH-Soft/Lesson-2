@@ -8,7 +8,7 @@ export const SloganContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem 0;
+  margin: 8rem 0;
 `;
 
 export const ContentBox = styled.div`
@@ -22,6 +22,8 @@ export const Title = styled.h5`
 
 export const Heading = styled.h2`
   color: #ffffff;
+  line-height: 45px;
+  max-width: 580px;
 `;
 
 export const Description = styled.p`

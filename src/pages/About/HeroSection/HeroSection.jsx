@@ -1,5 +1,12 @@
 import AboutHero from "../../../assets/About/about-hero.svg";
-import { ContentBox, Description, Heading, HeroBox, Title } from "./HeroStyled";
+import {
+  ContentBox,
+  Description,
+  Heading,
+  HeroBox,
+  ImageBox,
+  Title,
+} from "./HeroStyled";
 
 export default function HeroSection() {
   return (
@@ -15,9 +22,9 @@ export default function HeroSection() {
         </Description>
       </ContentBox>
 
-      <div>
+      <ImageBox>
         <img src={AboutHero} alt="" />
-      </div>
+      </ImageBox>
     </HeroBox>
   );
 }

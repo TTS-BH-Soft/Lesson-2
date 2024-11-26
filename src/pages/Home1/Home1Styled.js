@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import HeaderBg from "../../assets/background/bg-header.svg";
 
 export const MainContainer = styled.div`
-  background: url("../../assets/background/bg-header.svg") no-repeat;
+  background: url(${HeaderBg}) no-repeat;
   background-size: 88%;
 
   height: 805px;

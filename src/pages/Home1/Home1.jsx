@@ -1,6 +1,6 @@
 import { Navbar } from "../../layouts/NavBar/NavBar";
 import { Slider } from "../../component/Slider/Slider";
-import { MainContent } from "../../component/MainContent/MainContent";
+import { MainContent } from "./MainContent/MainContent";
 import { Footer } from "../../layouts/Footer/Footer";
 import { ContactUs } from "./ContactUs/ContactUs";
 import Teams from "../../component/Teams/Teams";

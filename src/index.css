@@ -18,6 +18,7 @@ h4,
 h5,
 h6 {
   color: #091156;
+  font-weight: 500;
 }
 
 p {
@@ -30,7 +31,6 @@ p {
 h1 {
   font-size: 48px;
   line-height: 60px;
-  font-weight: 600;
 }
 
 h2 {
@@ -67,16 +67,6 @@ h5 {
 
 .btn:hover {
   background-color: #d91c6b;
-}
-
-.about-us__bg {
-  position: absolute;
-  top: 1311px;
-  left: 67.2%;
-  transform: translateX(-50%) scale(0.79);
-  z-index: -99;
-  width: 100%;
-  max-width: 1200px;
 }
 
 #footer {
