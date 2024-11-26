@@ -12,8 +12,8 @@ import {
 export default function ContactInfo() {
   return (
     <ContactContainer>
-      <Title>Get in Touch</Title>
       <Content>
+        <Title>Get in Touch</Title>
         <Heading>Get direct handling by us</Heading>
         <Paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.

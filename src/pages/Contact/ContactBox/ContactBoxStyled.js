@@ -13,10 +13,10 @@ export const Title = styled.h5`
 export const Content = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-top: 1.4rem;
 `;
 
 export const Heading = styled.h2`
-  font-weight: 600;
   width: 615px;
 `;
 

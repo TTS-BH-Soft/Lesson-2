@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   width: 424px;
   height: 402px;
-  text-align: center;
   padding: 20px;
+
   background-color: ${(props) => (props.hasShadow ? "#fff" : "none")};
   border-radius: 42px;
   ${(props) =>
@@ -40,4 +45,6 @@ export const SubText = styled.p`
   color: #8b8b8b;
   margin-top: 10px;
   line-height: 1.5;
+
+  text-align: center;
 `;
