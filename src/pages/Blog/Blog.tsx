@@ -1,7 +1,13 @@
+import { Footer } from '../../layouts/Footer/Footer'
+import { NavBar } from '../../layouts/NavBar/NarBar'
+import HeroSection from './HeroSection/HeroSection'
+
 export default function Blog() {
   return (
-    <div>
-      <div></div>
-    </div>
+    <>
+      <NavBar />
+      <HeroSection />
+      <Footer />
+    </>
   )
 }
