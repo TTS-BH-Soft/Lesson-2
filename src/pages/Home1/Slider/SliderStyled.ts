@@ -2,12 +2,12 @@ import tw from 'twin.macro'
 
 export const SliderContainer = tw.div`
   relative top-[213px] left-[189px] h-[542px] max-w-[1098px]
-  lg:top-[100px] lg:left-0 lg:h-auto lg:px-4
+  // lg:top-[100px] lg:left-0 lg:h-auto lg:px-4
   sm:px-2
 `
 
 export const SliderContent = tw.div`
-  flex justify-center transition-transform duration-500
+  flex flex-col justify-center transition-transform duration-500
   lg:flex-col lg:items-center lg:justify-center
 `
 

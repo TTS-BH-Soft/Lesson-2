@@ -13,7 +13,6 @@ export const Logo = tw.img`
   md:(flex-col text-center)
 `
 
-// Tách phần logic `&.active` ra
 export const Nav = styled.div<{ $isActive: boolean }>`
   ${tw`flex justify-between items-center mt-1 mr-2 md:hidden`};
 

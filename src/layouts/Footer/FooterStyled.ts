@@ -2,8 +2,8 @@ import tw from 'twin.macro'
 
 export const FooterContent = tw.div`
   flex mt-24 ml-12
-  lg:flex-col lg:items-center lg:ml-0 lg:mt-12
-  md:flex-col md:items-center md:ml-0 md:mt-12
+  // lg:flex-col lg:items-center lg:ml-0 lg:mt-12
+  // md:flex-col md:items-center md:ml-0 md:mt-12
   sm:mt-8 sm:px-4
 `
 
@@ -36,7 +36,7 @@ export const CopyrightText = tw.p`
 `
 
 export const BackToTopButton = tw.button`
-  w-9 h-9 absolute bottom-[169px] right-[65px] 
+  w-[36px] h-[36px] absolute bottom-[169px] right-[65px] 
   bg-[#ff64ae] text-white border-none rounded-md cursor-pointer text-lg
   transition-colors duration-300
 
@@ -45,5 +45,5 @@ export const BackToTopButton = tw.button`
 
   hover:bg-[#d85076]
 
-  [&>img]:(pt-1.5)
+  [&>img]:(pt-1.5 mx-auto)
 `
