@@ -11,20 +11,25 @@ export const SloganContainer = styled.div`
 
 export const ContentBox = tw.div`
   max-w-[732px]
+  mx-auto
   text-center
 `
 
 export const Title = tw.h5`
   text-[#abb4ff]
+  [font-weight:600]
 `
 
 export const Heading = tw.h2`
   text-white
   leading-[45px]
   max-w-[580px]
+  mx-auto
+  [font-weight:600]
+
 `
 
 export const Description = tw.p`
   text-[#cacaca]
-  max-w-[680px]
+  max-w-[630px]
 `

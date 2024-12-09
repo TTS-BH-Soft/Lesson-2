@@ -1,7 +1,11 @@
+import { Footer } from '../../layouts/Footer/Footer'
+import { NavBar } from '../../layouts/NavBar/NarBar'
+
 export default function Service() {
   return (
-    <div>
-      <div></div>
-    </div>
+    <>
+      <NavBar />
+      <Footer />
+    </>
   )
 }

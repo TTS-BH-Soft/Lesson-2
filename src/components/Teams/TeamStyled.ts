@@ -1,37 +1,26 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
 
-// TeamSection
 export const TeamSection = tw.section`
   flex flex-col items-center justify-center mb-[-160px] text-center
   sm:max-w-[400px]
 `
-
-// Section Title
 export const SectionTitle = tw.h5`
-  mt-4 text-sm leading-6 tracking-wide
+  mt-4 text-sm leading-6 tracking-wide [font-weight: 600]
 `
-
-// Main Title
 export const MainTitle = tw.h2`
-  mt-1 mb-4 text-xl tracking-wide
+  mt-1 mb-4 text-xl tracking-wide [font-weight: 600]
 `
-
-// Description
 export const Description = tw.p`
   text-gray-500 text-base mt-3 mb-6 tracking-wide font-normal
   sm:(max-w-[350px] mx-auto text-sm)
 `
-
-// TeamBox
 export const TeamBox = tw.div`
   flex flex-wrap justify-center items-center relative
   sm:flex-col
 `
-
-// TeamItem with props
 export const TeamItem = styled.div<{ center?: boolean }>`
-  ${tw`flex flex-col items-center justify-between w-full mx-8 mb-8 transition-all duration-300`}
+  ${tw`flex flex-col items-center w-full mx-8 mb-8 transition-all duration-300`}
 
   ${({ center }) =>
     center
@@ -41,10 +30,13 @@ export const TeamItem = styled.div<{ center?: boolean }>`
         gap: 40px; 
         box-shadow: 0 25px 50px 25px #f6f7ff; 
         border-radius: 42px;
+        justify-content: center;
       `
       : `
         max-width: 270px; 
         height: 439px;
+        justify-content: space-between;
+
       `}
 
   &:hover {
@@ -60,20 +52,16 @@ export const TeamItem = styled.div<{ center?: boolean }>`
     ${tw`flex-col`}
   }
 `
-
-// TeamImage
 export const TeamImage = styled.div`
   img {
     ${tw`w-[146px] h-[146px]`};
   }
 `
-
-// TeamContent
 export const TeamContent = styled.div`
   ${tw`text-center max-w-[270px] mt-2`}
 
   h5 {
-    ${tw`leading-5`}
+    ${tw`leading-5`} [font-weight: 600]
   }
 
   h4 {
@@ -85,7 +73,6 @@ export const TeamContent = styled.div`
   }
 `
 
-// TeamSocial
 export const TeamSocial = styled.div`
   a {
     ${tw`inline-flex items-center justify-center w-[49px] h-[49px] rounded-full p-6 mx-4 bg-white text-blue-900 shadow-md text-xl transition-transform duration-300`};

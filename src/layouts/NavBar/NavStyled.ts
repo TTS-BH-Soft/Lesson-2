@@ -94,7 +94,7 @@ export const MobileMenu = styled.div`
   ${tw`fixed top-0 left-0 w-full h-full bg-white/95 z-50 flex flex-col items-center justify-center`};
 
   a {
-    ${tw`no-underline text-[#41487f] text-lg my-4 text-center w-full flex justify-center items-center`};
+    ${tw`no-underline text-[#41487f] text-lg my-4 text-center w-full flex justify-center items-center pl-0`};
 
     &:hover {
       ${tw`font-bold`};

@@ -6,7 +6,7 @@ interface MissionBoxProps {
 }
 
 export const MissionContainer = tw.div`
-  max-w-xl mx-auto
+  max-w-[1137px] mx-auto
 `
 
 export const MissionBox = styled.div<MissionBoxProps>`
@@ -15,7 +15,7 @@ export const MissionBox = styled.div<MissionBoxProps>`
 `
 
 export const ContentBox = tw.div`
-  max-w-sm
+  max-w-[475px]
 `
 
 export const Title = tw.h5`
