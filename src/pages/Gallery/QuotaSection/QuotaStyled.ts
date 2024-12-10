@@ -5,7 +5,6 @@ import GalleryBg from '../../../assets/Gallery/gallery-bubble.svg'
 export const Section = styled.section`
   ${tw`flex justify-center items-center mx-auto`}
   height: 389.63px;
-  max-width: 1289.56px;
   background: url(${GalleryBg}) no-repeat;
   background-position: right;
 `

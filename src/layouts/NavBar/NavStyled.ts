@@ -14,7 +14,7 @@ export const Logo = tw.img`
 `
 
 export const Nav = styled.div<{ $isActive: boolean }>`
-  ${tw`flex justify-between items-center mt-1 mr-2 md:hidden`};
+  ${tw`flex justify-between items-center mt-1 mr-2`};
 
   ${({ $isActive }) =>
     $isActive &&
@@ -71,7 +71,7 @@ export const HamburgerMenu = styled.div<{ $isMenuOpen: boolean }>`
   ${tw`hidden flex-col cursor-pointer gap-1`};
 
   div {
-    ${tw`w-6 h-[3px] bg-[#41487f] transition-all ease-in-out duration-300`};
+    ${tw`w-6 h-[3px] bg-[#41487f] transition-all ease-in-out duration-300 md:hidden`};
 
     &:nth-child(1) {
       ${({ $isMenuOpen }) => $isMenuOpen && tw`rotate-45 translate-y-2`};

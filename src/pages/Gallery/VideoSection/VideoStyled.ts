@@ -3,9 +3,10 @@ import tw from 'twin.macro'
 import imageBox from '../../../assets/Gallery/image-box.svg'
 
 export const Section = styled.section`
-  ${tw`relative w-full h-[628px] flex justify-center items-center text-center`}// background-image: url(${imageBox});
-  // background-size: cover;
-  // background-position: center;
+  ${tw`relative w-full h-[628px] flex justify-center items-center text-center`}
+  background-image: url(${imageBox});
+  background-size: cover;
+  background-position: center;
 
   // &::before {
   //   ${tw`absolute top-0 left-0 w-full h-full z-10`}

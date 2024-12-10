@@ -1,94 +1,63 @@
 import { createGlobalStyle } from 'styled-components'
-import tw, { theme, GlobalStyles as BaseStyles } from 'twin.macro'
+import tw, { GlobalStyles as BaseStyles } from 'twin.macro'
 
 const CustomStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    ${tw`m-0 p-0 box-border`}
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
     ${tw`antialiased`}
+    font-family: 'Poppins', sans-serif;
     max-width: 1440px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #091156;
-    font-weight: 500;
+    ${tw`text-[#091156] font-medium`}
   }
 
   p {
-    color: #8b8b8b;
-    font-size: 1rem;
-    font-weight: 300;
-    letter-spacing: 0.1em;
+    ${tw`text-[#8b8b8b] text-base font-light tracking-wider`}
   }
 
   h1 {
-    font-size: 48px;
-    line-height: 60px;
+    ${tw`text-[48px] leading-[60px]`}
   }
 
   h2 {
-    font-size: 36px;
-    line-height: 45px;
+    ${tw`text-[36px] leading-[45px]`}
   }
 
   h4 {
-    font-size: 18px;
+    ${tw`text-[18px]`}
   }
 
   h5 {
-    color: #ff64ae;
-    font-size: 16px;
+    ${tw`text-[#ff64ae] text-[16px]`}
   }
 
   .btn {
-    color: #ffffff;
-    background-color: #ff64ae;
-    max-width: 248px;
-    max-height: 58px;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 50px;
-    padding: 1rem 2rem;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    ${tw`
+      text-white bg-[#ff64ae] max-w-[248px] max-h-[58px] w-full h-full
+      border-none rounded-full p-4 text-[16px] leading-[24px] cursor-pointer
+      transition duration-300
+    `}
   }
 
   .btn:hover {
-    background-color: #d91c6b;
-  }
-
-  #footer {
-    background: url("./assets/background/bg-footer.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover;
-    color: #d7dbff;
-    padding: 49px 20px;
-    width: 100%;
-    height: 705px;
-    position: relative;
+    ${tw`bg-[#d91c6b]`}
   }
 
   @media screen and (max-width: 1024px) {
     #footer {
-      width: auto;
-      height: auto;
-      padding: 0;
-      background-size: cover;
+      ${tw`w-auto h-auto p-0 bg-cover`}
     }
 
     body {
-      margin: 0 auto;
+      ${tw`mx-auto`}
     }
 
     .about-us__bg {
@@ -98,11 +67,11 @@ const CustomStyles = createGlobalStyle`
 
   @media screen and (max-width: 768px) {
     h5, p {
-      font-size: 0.9rem;
+      ${tw`text-sm`}
     }
 
     h2 {
-      font-size: 1.5rem;
+      ${tw`text-[1.5rem]`}
     }
 
     .about-us__bg {

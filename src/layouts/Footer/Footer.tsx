@@ -7,6 +7,7 @@ import socialLinksData from '../../data/socialLinkData'
 import ArrowBtn from '../../assets/arrow-up.svg'
 
 import {
+  FooterContainer,
   FooterLinks,
   FooterBottom,
   FooterSocial,
@@ -18,7 +19,7 @@ import {
 
 export function Footer() {
   return (
-    <footer id="footer">
+    <FooterContainer id="footer">
       <FooterContent>
         <FooterLogoComponent />
         <FooterLinks>
@@ -63,6 +64,6 @@ export function Footer() {
       >
         <img src={ArrowBtn} alt="Arrow Button" />
       </BackToTopButton>
-    </footer>
+    </FooterContainer>
   )
 }

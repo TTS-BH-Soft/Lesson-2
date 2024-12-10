@@ -72,7 +72,7 @@ export function NavBar() {
           <ChildLink href="/service">Service</ChildLink>
           <ChildLink href="/gallery">Gallery</ChildLink>
           <RootLink href="/blog">Blog</RootLink>
-          <Button>Contact</Button>
+          <Button className="btn">Contact</Button>
         </MobileMenu>
       )}
     </NavbarContainer>

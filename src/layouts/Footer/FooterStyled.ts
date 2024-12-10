@@ -1,4 +1,12 @@
+import styled from 'styled-components'
 import tw from 'twin.macro'
+import bgFooter from '../../assets/background/bg-footer.svg'
+
+export const FooterContainer = styled.footer`
+  ${tw`w-full h-[705px] bg-cover bg-no-repeat text-[#d7dbff] relative p-[49px] pt-[20px]`}
+
+  background-image: url(${bgFooter});
+`
 
 export const FooterContent = tw.div`
   flex mt-24 ml-12

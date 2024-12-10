@@ -2,50 +2,43 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const TeamSection = tw.section`
-  flex flex-col items-center justify-center mb-[-160px] text-center
-  sm:max-w-[400px]
+  flex justify-center flex-col text-center -mb-40
+  [align-items: space-between]
+
+  // sm:max-w-[400px]
 `
+
 export const SectionTitle = tw.h5`
-  mt-4 text-sm leading-6 tracking-wide [font-weight: 600]
+  leading-6 tracking-[0.2px] mt-1 [font-weight: 600]
 `
 export const MainTitle = tw.h2`
-  mt-1 mb-4 text-xl tracking-wide [font-weight: 600]
+  tracking-[0.19px] mx-0 my-[0.25em] [font-weight: 600]
 `
 export const Description = tw.p`
-  text-gray-500 text-base mt-3 mb-6 tracking-wide font-normal
-  sm:(max-w-[350px] mx-auto text-sm)
+  text-[#8b8b8b] text-base tracking-[1.6px] font-normal mx-0 my-[0.7em]
+  // sm:(max-w-[350px] mx-auto text-sm)
 `
 export const TeamBox = tw.div`
   flex flex-wrap justify-center items-center relative
-  sm:flex-col
+  // sm:flex-col
 `
 export const TeamItem = styled.div<{ center?: boolean }>`
-  ${tw`flex flex-col items-center w-full mx-8 mb-8 transition-all duration-300`}
+  ${tw`flex flex-col justify-center items-center w-full transition-all h-[626px] duration-[0.3s] ease-[ease] mx-[30px] my-[6.2rem]`}
 
   ${({ center }) =>
     center
       ? `
         max-width: 424px; 
-        height: 626px; 
         gap: 40px; 
         box-shadow: 0 25px 50px 25px #f6f7ff; 
         border-radius: 42px;
-        justify-content: center;
       `
       : `
         max-width: 270px; 
-        height: 439px;
-        justify-content: space-between;
-
       `}
 
   &:hover {
-    ${tw`shadow-lg`}
-    max-width: 424px;
-    height: 626px;
-    gap: 40px;
-    border-radius: 42px;
-    justify-content: center;
+    ${tw`shadow-[0_25px_50px_25px_#f6f7ff] max-w-[424px] gap-10 justify-center rounded-[42px]`}
   }
 
   @media (max-width: 640px) {
