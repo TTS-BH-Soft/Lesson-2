@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro'
 import SloganBg from '../../../assets/About/slogan-image.svg'
 
 export const SloganContainer = styled.div`
-  ${tw`h-[529px] flex justify-center items-center my-[8rem]`}
+  ${tw`h-[529px] flex justify-center items-center mt-[13.4rem] mb-[5rem]`}
   background-image: url(${SloganBg});
   background-repeat: no-repeat;
   background-size: cover;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const NavbarContainer = tw.div`
-  flex items-center justify-around py-10 max-w-[1140px]
+  flex items-center justify-around m-auto py-10 max-w-[1140px]
 
   // md:(justify-around items-center)
 `
@@ -42,7 +42,7 @@ export const NavBox = tw.div`
 `
 
 export const NavLink = styled.a`
-  ${tw`text-gray-500 text-base transition-colors duration-300 no-underline tracking-wide flex items-center`};
+  ${tw`text-gray-500 [font-weight: 600] text-base transition-colors duration-300 no-underline tracking-wide flex items-center`};
 
   &:hover {
     ${tw`text-[#41487f]`};
@@ -62,7 +62,7 @@ export const ChildLink = tw(NavLink)`
 `
 
 export const Button = tw.button`
-  p-4 text-base w-[158px] h-12 tracking-wide cursor-pointer transition-colors duration-300
+  p-4 text-center w-[158px] h-[52px] tracking-wide cursor-pointer transition-colors duration-300
 
   hover:(bg-[#e07eb3])
 `

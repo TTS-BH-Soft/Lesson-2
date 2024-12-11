@@ -41,7 +41,8 @@ const CustomStyles = createGlobalStyle`
 
   .btn {
     ${tw`
-      text-white bg-[#ff64ae] max-w-[248px] max-h-[58px] text-base leading-6 cursor-pointer transition-[background-color] duration-[0.3s] ease-[ease] px-8 py-4 rounded-[50px] border-[none] hover:bg-[#d91c6b]
+      text-white bg-[#ff64ae] max-w-[248px] max-h-[58px] text-base leading-6 cursor-pointer 
+      transition-[background-color] duration-[0.3s] ease-[ease] px-8 py-4 rounded-[50px] border-[none] hover:bg-[#d91c6b] [font-weight: 600]
     `}
   }
 
