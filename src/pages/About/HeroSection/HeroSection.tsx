@@ -1,4 +1,6 @@
 import AboutHero from '../../../assets/About/about-hero.svg'
+import PlayBtn from '../../../assets/About/hero-button.svg'
+
 import {
   ContentBox,
   Description,
@@ -6,6 +8,7 @@ import {
   HeroBox,
   ImageBox,
   Title,
+  PlayButton,
 } from './HeroStyled'
 
 export default function HeroSection() {
@@ -24,6 +27,9 @@ export default function HeroSection() {
 
       <ImageBox>
         <img src={AboutHero} alt="" />
+        <PlayButton>
+          <img src={PlayBtn} alt="" />
+        </PlayButton>
       </ImageBox>
     </HeroBox>
   )

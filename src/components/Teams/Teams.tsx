@@ -39,7 +39,7 @@ export default function Teams() {
   return (
     <TeamSection id="team">
       <SectionTitle>Professional Teams</SectionTitle>
-      <MainTitle>The Professional Expert</MainTitle>
+      <MainTitle>The Professional expert</MainTitle>
       <Description>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
       </Description>

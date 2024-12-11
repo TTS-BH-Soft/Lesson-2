@@ -2,21 +2,14 @@ import tw from 'twin.macro'
 
 export const LinkSection = tw.div`
   max-w-[215px]
-  sm:max-w-full
+  // sm:max-w-full
 `
 
 export const FooterLinkTitle = tw.h3`
-  text-lg
-  mb-[15px]
-  text-white
-  tracking-wide
-  sm:text-base
+  text-lg text-[white] tracking-[2px] mb-[15px] [font-weight: 600]
 `
 
 export const FooterLinkList = tw.ul`
+  mt-[1.8rem] px-[0.3rem] py-0
   list-none
-  p-0
-  pl-[0.3rem]
-  mt-[1.8rem]
-  sm:mt-[1.2rem]
 `

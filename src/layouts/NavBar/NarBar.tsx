@@ -56,7 +56,9 @@ export function NavBar() {
 
         <NavBox>
           <Link to="/contact-us">
-            <Button type="button">Contact</Button>
+            <Button type="button" className="btn">
+              Contact
+            </Button>
           </Link>
         </NavBox>
       </Nav>

@@ -2,11 +2,11 @@ import { createGlobalStyle } from 'styled-components'
 import tw, { GlobalStyles as BaseStyles } from 'twin.macro'
 
 const CustomStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 
   * {
-    ${tw`m-0 p-0 box-border`}
-    font-family: 'Poppins', sans-serif;
+  box-border m-0 p-0;
+  font-family: "Poppins", sans-serif
   }
 
   body {
@@ -16,7 +16,7 @@ const CustomStyles = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    ${tw`text-[#091156] font-medium`}
+    ${tw`text-[#091156] [font-weight: 600]`}
   }
 
   p {
@@ -41,9 +41,7 @@ const CustomStyles = createGlobalStyle`
 
   .btn {
     ${tw`
-      text-white bg-[#ff64ae] max-w-[248px] max-h-[58px] w-full h-full
-      border-none rounded-full p-4 text-[16px] leading-[24px] cursor-pointer
-      transition duration-300
+      text-white bg-[#ff64ae] max-w-[248px] max-h-[58px] text-base leading-6 cursor-pointer transition-[background-color] duration-[0.3s] ease-[ease] px-8 py-4 rounded-[50px] border-[none] hover:bg-[#d91c6b]
     `}
   }
 

@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const NavbarContainer = tw.div`
-  flex items-start justify-around py-10
+  flex items-center justify-around py-10 max-w-[1140px]
 
-  md:(justify-around items-center)
+  // md:(justify-around items-center)
 `
 
 export const Logo = tw.img`
@@ -62,7 +62,7 @@ export const ChildLink = tw(NavLink)`
 `
 
 export const Button = tw.button`
-  p-4 text-base w-40 h-12 tracking-wide cursor-pointer transition-colors duration-300
+  p-4 text-base w-[158px] h-12 tracking-wide cursor-pointer transition-colors duration-300
 
   hover:(bg-[#e07eb3])
 `
