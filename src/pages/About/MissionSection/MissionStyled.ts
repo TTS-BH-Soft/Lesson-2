@@ -10,7 +10,7 @@ export const MissionContainer = tw.div`
 `
 
 export const MissionBox = styled.div<MissionBoxProps>`
-  ${tw`flex justify-between items-center mb-4`}
+  ${tw`flex justify-between items-center mb-4 mt-[7rem]`}
   flex-direction: ${({ reverse }) => (reverse ? 'row-reverse' : 'row')};
 `
 
