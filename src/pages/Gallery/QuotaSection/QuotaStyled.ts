@@ -26,5 +26,5 @@ export const Subtitle = tw.p`
 `
 
 export const Button = tw.button`
-  max-w-[316px] h-[58px]
+  max-w-[316px] h-[58px] px-[40px]
 `

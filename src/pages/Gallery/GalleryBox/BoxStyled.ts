@@ -14,21 +14,22 @@ export const Title = tw.h5`
 `
 
 export const HeaderBox = tw.div`
-  flex justify-between mr-4
+  flex justify-between
 `
 
 export const Heading = tw.h2`
   mb-[1.2rem]
   font-semibold
-  max-w-[615px]
+  max-w-[610px]
   max-h-[104px]
+  tracking-[0.3px]
 `
 
 export const Subtitle = tw.p`
   text-[#8b8b8b]
   font-normal text-[16px] leading-[24px]
   mb-[2rem] mr-[1rem]
-  tracking-[3px]
+  tracking-[2px]
   max-w-[407px] h-[72px]
 `
 

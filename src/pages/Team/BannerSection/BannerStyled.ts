@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import imageBox from '../../../assets/Gallery/image-box.svg'
+import imageBox from '../../../assets/Team/team-banner.svg'
 
 export const Section = styled.section`
   ${tw`relative w-full h-[628px] flex justify-center items-center text-center`}
@@ -24,9 +24,4 @@ export const Title = tw.h2`
 
 export const Subtitle = tw.p`
   max-w-[555px] mb-[2rem] text-[#cacaca]
-`
-
-export const PlayButton = tw.div`
-  cursor-pointer inline-flex justify-center items-center rounded-full transition-all duration-300
-  hover:bg-[rgba(255, 255, 255, 0.5)]
 `
