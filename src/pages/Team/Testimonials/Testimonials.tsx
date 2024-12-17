@@ -6,7 +6,8 @@ import {
   Heading,
   Description,
   TestimonialWrapper,
-  NavigationButton,
+  NavigationButtonLeft,
+  NavigationButtonRight,
   TestimonialCard,
   Image,
   Text,
@@ -36,7 +37,9 @@ export default function Testimonials() {
       </SectionTitle>
 
       <TestimonialWrapper>
-        <NavigationButton onClick={prevTestimonial}>&#8592;</NavigationButton>
+        <NavigationButtonLeft onClick={prevTestimonial}>
+          &#8592;
+        </NavigationButtonLeft>
 
         <TestimonialCard>
           <Image src={currentTestimonial.image} alt="Customer" />
@@ -50,7 +53,9 @@ export default function Testimonials() {
           </StarRating>
         </TestimonialCard>
 
-        <NavigationButton onClick={nextTestimonial}>&#8594;</NavigationButton>
+        <NavigationButtonRight onClick={nextTestimonial}>
+          &#8594;
+        </NavigationButtonRight>
       </TestimonialWrapper>
     </Container>
   )

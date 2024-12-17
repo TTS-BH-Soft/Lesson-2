@@ -1,3 +1,5 @@
+import Image from '../assets/Team/testimonial.svg'
+
 export type Testimonial = {
   id: number
   image: string
@@ -8,20 +10,20 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    image: '../assets/Team/testimonial.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam lorem.',
+    image: Image,
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus tincidunt laoreet ultricies condimentum ac integer aliquam. Lorem diam dignissim amet fermentum elementum dui dui. Aliquam sem elementum morbi imperdiet suscipit erat ut. Purus volutpat in turpis gravida blandit.',
     rating: 5,
   },
   {
     id: 2,
-    image: '../assets/Team/testimonial.jpeg',
-    text: 'Faucibus metus tincidunt laoreet ultricies condimentum ac integer aliquam.',
+    image: Image,
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus tincidunt laoreet ultricies condimentum ac integer aliquam. Lorem diam dignissim amet fermentum elementum dui dui. Aliquam sem elementum morbi imperdiet suscipit erat ut',
     rating: 4,
   },
   {
     id: 3,
-    image: '../assets/Team/testimonial.jpeg',
-    text: 'Lorem diam dignissim amet fermentum elementum dui. Pellentesque feugiat.',
+    image: Image,
+    text: 'Faucibus metus tincidunt laoreet ultricies condimentum ac integer aliquam. Lorem diam dignissim amet fermentum elementum dui dui. Aliquam sem elementum morbi imperdiet suscipit erat ut. Purus volutpat in turpis gravida blandit.',
     rating: 5,
   },
 ]

@@ -1,6 +1,6 @@
-import Service1 from '../../../assets/services/service-1.svg'
-import Service2 from '../../../assets/services/service-2.svg'
-import Service3 from '../../../assets/services/service-3.svg'
+import Service1 from '../../../assets/Home1/service-1.svg'
+import Service2 from '../../../assets/Home1/service-2.svg'
+import Service3 from '../../../assets/Home1/service-3.svg'
 import ServiceItem from '../ServiceItem/ServiceItem'
 
 import { Section, Header, ServicesBox } from './ServiceStyled'

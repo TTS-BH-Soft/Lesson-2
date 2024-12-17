@@ -6,7 +6,7 @@ interface MissionBoxProps {
 }
 
 export const MissionContainer = tw.div`
-  max-w-[1137px] mx-auto
+  max-w-[1137px] mx-auto flex
 `
 
 export const MissionBox = styled.div<MissionBoxProps>`

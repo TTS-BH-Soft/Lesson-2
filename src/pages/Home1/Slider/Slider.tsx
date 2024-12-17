@@ -1,4 +1,4 @@
-import SliderImage from '../../../assets/slider.svg'
+import SliderImage from '../../../assets/Home1/slider.svg'
 import {
   SliderContainer,
   SliderContent,

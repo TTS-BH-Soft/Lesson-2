@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import imageBox from '../../../assets/Team/team-banner.svg'
+import imageBox from '../../../assets/Service/banner.svg'
 
 export const Section = styled.section`
   ${tw`relative w-full h-[628px] flex justify-center items-center text-center`}
