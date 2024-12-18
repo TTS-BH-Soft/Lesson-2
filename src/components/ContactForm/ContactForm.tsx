@@ -15,7 +15,9 @@ export default function ContactForm() {
       <Input type="email" placeholder="Email address" required />
       <Input type="text" placeholder="Subject message" required />
       <Textarea placeholder="Your inquiry here" rows={4} required />
-      <Button type="submit">Send Message</Button>
+      <Button type="submit" className="btn">
+        Send Message
+      </Button>
     </Form>
   )
 }

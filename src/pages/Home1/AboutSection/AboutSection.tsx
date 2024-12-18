@@ -39,7 +39,9 @@ export default function AboutUsSection() {
         </Content>
 
         <ButtonContainer>
-          <Button type="button">Learn More</Button>
+          <Button type="button" className="btn">
+            Learn More
+          </Button>
           <Link href="#">
             <img src={PlayBtn} alt="Watch Video" />
             <LinkText>Watch Video</LinkText>

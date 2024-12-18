@@ -18,8 +18,8 @@ export const ContactBox = styled.section`
 export const Wrapper = tw.div`
   pt-[175px] flex items-start max-w-[1440px] mx-auto
 
-  md:(flex-col items-center pt-[100px])
-  sm:(pt-[80px])
+  // md:(flex-col items-center pt-[100px])
+  // sm:(pt-[80px])
 `
 
 export const ImageContainer = styled.div`
