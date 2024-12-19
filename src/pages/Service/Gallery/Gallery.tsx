@@ -15,7 +15,6 @@ export default function Gallery(): JSX.Element {
 
       <GridContainer>
         {galleryData.map((item, index) => {
-          // Check if we are in the second row (index 2 and 3) and reverse
           const isSecondRow = Math.floor(index / 2) === 1
           const reverse = isSecondRow ? index % 2 === 0 : index % 2 === 1
 
