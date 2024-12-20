@@ -1,14 +1,14 @@
 import { Footer } from '../../layouts/Footer/Footer'
 import { NavBar } from '../../layouts/NavBar/NarBar'
-import BlogCardList from './BlogCardList/BlogCardList'
 import HeroSection from './HeroSection/HeroSection'
+import MainContent from './MainContent/MainContent'
 
 export default function Blog() {
   return (
     <>
       <NavBar />
       <HeroSection />
-      <BlogCardList />
+      <MainContent />
       <Footer />
     </>
   )

@@ -2,7 +2,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-  ${tw`rounded-[3rem] bg-white shadow-lg overflow-hidden max-w-[730px] h-[953px] my-[4rem]`}
+  ${tw`rounded-[3rem] bg-white shadow-lg overflow-hidden max-w-[730px] h-[953px] mb-[3rem]`}
 `
 
 export const CardHeader = styled.div`
