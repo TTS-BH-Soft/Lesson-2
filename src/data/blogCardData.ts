@@ -1,29 +1,33 @@
-// blogCardData.ts
+import Image1 from '../assets/Blogs/blog-1.svg'
+import Image2 from '../assets/Blogs/blog-2.svg'
+import Image3 from '../assets/Blogs/blog-3.svg'
+
 export const blogCardData = [
   {
     category: 'Consultation',
-    title: 'How much does a consultation cost?',
+    title: 'How much does a consultation cost at our clinic?',
     description:
-      'A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring...',
+      'A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…',
     buttonText: 'Read More',
-    imageSrc: '/images/consultation.jpg',
+    imageSrc: Image1,
     onClick: () => alert('Consultation clicked!'),
   },
   {
-    category: 'Health Tips',
-    title: '5 Ways to Boost Your Immune System',
+    category: 'Beauty',
+    title: "Watch out! don't choose the wrong beauty product",
     description:
-      "Your immune system is your body's defense mechanism. Here are 5 simple ways to strengthen it and stay healthy all year round...",
-    buttonText: 'Learn More',
-    imageSrc: '/images/health-tips.jpg',
+      'A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…',
+    buttonText: 'Read More',
+    imageSrc: Image2,
+    onClick: () => alert('Consultation clicked!'),
   },
   {
-    category: 'News',
-    title: 'Clinic Opening Hours During Holidays',
+    category: 'Treatments',
+    title: 'About skin care you need to know',
     description:
-      "Our clinic's schedule during the holidays has been updated. Check out the new opening hours to plan your visit...",
-    buttonText: 'Find Out',
-    imageSrc: '/images/clinic-hours.jpg',
+      'A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…',
+    buttonText: 'Read More',
+    imageSrc: Image3,
     onClick: () => alert('News clicked!'),
   },
 ]

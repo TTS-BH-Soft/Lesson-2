@@ -3,6 +3,7 @@ import {
   CardHeader,
   CardContent,
   CategoryTag,
+  Category,
   Title,
   Description,
   ReadMoreButton,
@@ -13,8 +14,8 @@ interface BlogCardProps {
   title: string
   description: string
   buttonText: string
-  imageSrc?: string // Optional image source
-  onClick?: () => void // Optional click handler
+  imageSrc?: string
+  onClick?: () => void
 }
 
 export default function BlogCard({
@@ -23,7 +24,7 @@ export default function BlogCard({
   description,
   buttonText,
   imageSrc,
-  onClick,
+  onClick = () => {},
 }: BlogCardProps) {
   return (
     <CardContainer>
@@ -34,14 +35,14 @@ export default function BlogCard({
       )}
 
       <CardContent>
-        <CategoryTag>{category}</CategoryTag>
-        <Title>{title}</Title>
-        <Description>
-          {description.length > 100
-            ? `${description.substring(0, 100)}...`
-            : description}
-        </Description>
-        <ReadMoreButton onClick={onClick}>{buttonText}</ReadMoreButton>
+        <Category>
+          <CategoryTag>{category}</CategoryTag>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+        </Category>
+        <ReadMoreButton onClick={onClick} className="btn">
+          {buttonText}
+        </ReadMoreButton>
       </CardContent>
     </CardContainer>
   )
