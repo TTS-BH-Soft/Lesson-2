@@ -14,11 +14,9 @@ export default function Home1() {
         <Slider />
       </MainContainer>
 
-      <main>
-        <MainContent />
-        <Teams />
-        <ContactSection />
-      </main>
+      <MainContent />
+      <Teams />
+      <ContactSection />
 
       <Footer />
     </>

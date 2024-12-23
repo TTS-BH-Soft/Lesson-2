@@ -32,6 +32,7 @@ export default function AboutUsSection() {
             Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in
             suspendisse placerat.
           </Paragraph>
+
           <Paragraph>
             Id dui erat sed quam tellus in purus. Pellentesque congue fringilla
             cras tellus enim.

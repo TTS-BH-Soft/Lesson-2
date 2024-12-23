@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 
 export const Section = tw.section`
-  flex justify-center items-center my-16 mx-20
+  flex justify-center items-center my-16 mx-20 max-w-[1291px] h-[1029px]
   // lg:flex-col lg:mx-5 lg:my-10 lg:text-center
 `
 

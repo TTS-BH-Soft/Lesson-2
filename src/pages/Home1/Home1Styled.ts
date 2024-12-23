@@ -5,5 +5,5 @@ export const MainContainer = tw.div`
   h-[805px] mb-[30px]
 
   // lg:bg-none
-  sm:mx-auto
+  // sm:mx-auto
 `

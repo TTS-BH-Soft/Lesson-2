@@ -3,7 +3,7 @@ import bgContact from '../../../assets/background/bg-contact.jpg'
 
 export const ContactBox = styled.section`
   ${tw`p-8 mb-1 bg-no-repeat`}
-  background-position: 82%;
+  // background-position: 82%;
   background-image: url(${bgContact});
 
   @media (max-width: 768px) {

@@ -14,6 +14,7 @@ export default function ServiceSection() {
           Learn services to focus <br />
           on your beauty
         </h2>
+
         <p>
           Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa.
           Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla
