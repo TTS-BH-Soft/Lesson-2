@@ -2,32 +2,33 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const NavbarContainer = tw.div`
-  flex items-center justify-around m-auto py-10 max-w-[1140px]
+  flex items-start justify-between max-w-[1140px] h-[63px] py-[41px] mb-[30px] m-auto
 
   // md:(justify-around items-center)
 `
 
 export const Logo = tw.img`
-  ml-3
+  // ml-[0.7rem]
 
   md:(flex-col text-center)
 `
 
 export const Nav = styled.div<{ $isActive: boolean }>`
-  ${tw`flex justify-between items-center mt-1 mr-2`};
+  ${tw`flex justify-between items-center mt-[4px] mr-[10px]`};
 
   ${({ $isActive }) =>
     $isActive &&
     `
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       position: absolute;
-      top: 15px;
+      top: 60px;
       right: 0;
-      background-color: white;
+      background: #fff;
       width: 100%;
-      padding: 16px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     `}
 `
 

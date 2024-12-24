@@ -1,7 +1,9 @@
 import tw from 'twin.macro'
 
 export const Section = tw.section`
-  flex justify-center items-center my-16 mx-20 max-w-[1291px] h-[1029px]
+  flex justify-center items-center my-16 mx-20 max-w-[1291px]
+  bg-[url('../../../assets/background/bg-about.svg')] bg-no-repeat bg-[88%] 
+
   // lg:flex-col lg:mx-5 lg:my-10 lg:text-center
 `
 
@@ -15,12 +17,12 @@ export const Header = tw.div`
 `
 
 export const Title = tw.h5`
-  mb-2 text-lg font-semibold
+  mb-2 [font-weight: 600]
   // lg:text-base
 `
 
 export const Subtitle = tw.h2`
-  mb-4 font-semibold text-2xl
+  mb-4 font-semibold [font-weight: 600]
   // lg:text-xl
 `
 
@@ -55,7 +57,7 @@ export const LinkText = tw.span`
 `
 
 export const ImageContainer = tw.div`
-  flex justify-center items-center pt-10 max-w-[476px]
+  flex justify-center items-center pt-10
   // lg:max-w-full lg:pt-0
 `
 

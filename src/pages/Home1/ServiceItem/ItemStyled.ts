@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro'
 
 // StyleItem
 export const StyleItem = styled.div`
-  ${tw`flex flex-col items-center text-center max-w-[343px] min-h-[458px] z-[4]`}
+  ${tw`flex flex-col items-center justify-between text-center max-w-[343px] min-h-[458px] z-[4]`}
   ${tw`rounded-[42px] p-[2.6rem 0.9rem]`}
   box-shadow: 0 25px 50px 25px #f6f7ff;
 

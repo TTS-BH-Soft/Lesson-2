@@ -1,4 +1,4 @@
-import bgAbout from '../../../assets/background/bg-about.svg'
+// import bgAbout from '../../../assets/background/bg-about.svg'
 
 import AboutUsSection from '../AboutSection/AboutSection'
 import ServiceSection from '../ServiceSection/ServiceSection'
@@ -9,7 +9,7 @@ export function MainContent() {
     <HeaderSection>
       <ServiceSection />
       <AboutUsSection />
-      <AboutBackground src={bgAbout} alt="Background About Us" />
+      {/* <AboutBackground src={bgAbout} alt="Background About Us" /> */}
     </HeaderSection>
   )
 }

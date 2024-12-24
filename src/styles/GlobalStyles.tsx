@@ -10,7 +10,6 @@ const CustomStyles = createGlobalStyle`
   }
 
   body {
-    ${tw`antialiased`}
     font-family: 'Poppins', sans-serif;
     max-width: 1440px;
   }

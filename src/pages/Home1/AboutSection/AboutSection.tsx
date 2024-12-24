@@ -19,7 +19,7 @@ import AboutPic from '../../../assets/about-us.svg'
 
 export default function AboutUsSection() {
   return (
-    <Section id="about-us">
+    <Section>
       <InfoBox>
         <Header>
           <Title>About Us</Title>

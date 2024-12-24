@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro'
 
 export const Section = styled.section`
-  ${tw`flex flex-col items-center bg-no-repeat bg-contain pt-[100px] relative z-[88]`}
+  ${tw`flex flex-col items-center bg-no-repeat bg-contain pt-[59px] relative z-[88]`}
   background-image: url("../../assets/background/bg-about.svg");
   background-position: bottom right;
 
@@ -21,7 +21,7 @@ export const Header = styled.div`
   ${tw`max-w-[848px] flex flex-col items-center text-center`}
 
   h5 {
-    ${tw`text-[16.2px] leading-[23px]`}
+    ${tw`text-[16.2px] leading-[23px] [letter-spacing: 0.34px]`}
   }
 
   h2 {
@@ -29,7 +29,7 @@ export const Header = styled.div`
   }
 
   p {
-    ${tw`mt-[12.5px] ml-[1px] font-normal`}
+    ${tw`mt-[12.5px] ml-[1px] font-normal [letter-spacing: 1px] w-[788px]`}
   }
 
   @media (max-width: 768px) {

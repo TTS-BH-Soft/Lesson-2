@@ -7,7 +7,7 @@ import { Section, Header, ServicesBox } from './ServiceStyled'
 
 export default function ServiceSection() {
   return (
-    <Section id="services">
+    <Section>
       <Header>
         <h5>Main Services</h5>
         <h2>
