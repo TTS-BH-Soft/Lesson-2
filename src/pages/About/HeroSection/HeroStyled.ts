@@ -3,8 +3,9 @@ import tw from 'twin.macro'
 export const HeroBox = tw.div`
   max-w-[1140px]
   h-[795px]
-  my-[5.1rem] mx-auto
-  mb-[8.5rem]
+  mt-[8.3rem]
+  mx-auto
+  mb-[9rem]
 `
 
 export const ContentBox = tw.div`
@@ -19,6 +20,8 @@ export const Title = tw.h5`
 
 export const Heading = tw.h2`
   tracking-[0.3px]
+  [font-weight: 600]
+  my-[0.7rem]
 `
 
 export const Description = tw.p`
@@ -28,11 +31,12 @@ export const Description = tw.p`
 `
 
 export const ImageBox = tw.div`
-  mt-[3.8rem]
+  mt-[4.5rem]
   relative
 `
 
 export const PlayButton = tw.div`
+[margin-top: 0.3rem]
   cursor-pointer 
   inline-flex 
   justify-center

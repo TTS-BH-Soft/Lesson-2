@@ -1,16 +1,16 @@
 import tw from 'twin.macro'
 
 export const ClientContainer = tw.div`
-  mx-auto my-[4.5rem] max-w-7xl h-[306px] text-center
+  my-[4.5rem] h-[306px] flex flex-col justify-center items-center
 `
 
 export const ClientContent = tw.div`
-  max-w-[848px] mx-auto
+  max-w-[848px] mx-auto flex flex-col justify-center items-center
 `
 
 export const ClientBox = tw.div`
   flex justify-between
-  max-w-[962px] mx-auto mt-[3rem]
+  max-w-[962px] mx-auto my-[3rem]
 `
 
 export const Title = tw.h5`

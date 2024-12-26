@@ -51,7 +51,7 @@ export const TeamImage = styled.div`
   }
 `
 export const TeamContent = styled.div`
-  ${tw`text-center max-w-[270px] mt-2`}
+  ${tw`text-center max-w-[270px] my-[3rem]`}
 
   h5 {
     ${tw`leading-5`} [font-weight: 600]

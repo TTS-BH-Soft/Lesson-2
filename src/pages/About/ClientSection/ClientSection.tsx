@@ -17,7 +17,7 @@ export default function ClientSection() {
     <ClientContainer>
       <ClientContent>
         <Title>Our Clients</Title>
-        <Heading>Well-known agencies</Heading>
+        <Heading>Well - known agencies</Heading>
         <Description>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </Description>

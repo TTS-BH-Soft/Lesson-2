@@ -15,7 +15,7 @@ export const MissionBox = styled.div<MissionBoxProps>`
 `
 
 export const ContentBox = tw.div`
-  max-w-[475px]
+  max-w-[520px]
 `
 
 export const Title = tw.h5`
